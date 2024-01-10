@@ -1,0 +1,30 @@
+nav{
+    background-color: #EF7A8A;
+}
+
+section{
+    padding: 20px;
+    margin-top: 1%;
+}
+
+.imagem{
+    padding: 20px;
+    margin: auto;
+}
+
+@media screen and (min-width: 100px) {
+    .imagem{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    section{
+        width: 60%;
+        display: flex;
+    } 
+
+    .imagem{
+        width: 40%;
+    }
+}
